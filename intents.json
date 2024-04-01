@@ -8,39 +8,72 @@
           "How are you",
           "Is anyone there?",
           "Hello",
-          "Good day"
+          "Good day",
+          "Greetings",
+          "Hi there",
+          "Hey there",
+          "Hello there"
         ],
         "responses": [
           "Hey :-)",
           "Hello, thanks for visiting",
           "Hi there, what can I do for you?",
-          "Hi there, how can I help?"
+          "Hi there, how can I help?",
+          "Greetings! Welcome to our coffee shop."
         ]
       },
       {
         "tag": "goodbye",
-        "patterns": ["Bye", "See you later", "Goodbye"],
+        "patterns": [
+          "Bye",
+          "See you later",
+          "Goodbye",
+          "Take care",
+          "Until next time"
+        ],
         "responses": [
           "See you later, thanks for visiting",
           "Have a nice day",
-          "Bye! Come back again soon."
+          "Bye! Come back again soon.",
+          "Goodbye! Take care.",
+          "Until next time! Have a great day."
         ]
       },
       {
         "tag": "thanks",
-        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "That's helpful",
+          "Thank's a lot!",
+          "Appreciate it",
+          "Thank you so much"
+        ],
+        "responses": [
+          "Happy to help!",
+          "Any time!",
+          "My pleasure",
+          "You're welcome!",
+          "Glad I could assist."
+        ]
       },
       {
         "tag": "items",
         "patterns": [
           "Which items do you have?",
           "What kinds of items are there?",
-          "What do you sell?"
+          "What do you sell?",
+          "What beverages do you offer?",
+          "Can you tell me about your menu?",
+          "What are your specialties?",
+          "Do you have any specials?"
         ],
         "responses": [
           "We sell coffee and tea",
-          "We have coffee and tea"
+          "We have coffee and tea",
+          "Our menu includes a variety of coffee and tea options.",
+          "We offer a range of specialty beverages and classic favorites.",
+          "Our specialties include espresso drinks, flavored lattes, and herbal teas."
         ]
       },
       {
@@ -49,11 +82,16 @@
           "Do you take credit cards?",
           "Do you accept Mastercard?",
           "Can I pay with Paypal?",
-          "Are you cash only?"
+          "Are you cash only?",
+          "What payment methods do you accept?",
+          "Can I use Apple Pay?",
+          "Do you accept contactless payments?"
         ],
         "responses": [
-          "We accept VISA, Mastercard and Paypal",
-          "We accept most major credit cards, and Paypal"
+          "We accept VISA, Mastercard, and Paypal",
+          "We accept most major credit cards, and Paypal",
+          "We support various payment methods, including credit cards and Paypal.",
+          "Yes, we accept Apple Pay and contactless payments as well."
         ]
       },
       {
@@ -61,24 +99,118 @@
         "patterns": [
           "How long does delivery take?",
           "How long does shipping take?",
-          "When do I get my delivery?"
+          "When do I get my delivery?",
+          "Do you offer delivery?",
+          "What's your delivery process?",
+          "Can I track my delivery?"
         ],
         "responses": [
           "Delivery takes 2-4 days",
-          "Shipping takes 2-4 days"
+          "Shipping takes 2-4 days",
+          "We offer delivery services with an estimated delivery time of 2-4 days.",
+          "Yes, we provide delivery options for your convenience."
         ]
       },
       {
-        "tag": "funny",
+        "tag": "order",
         "patterns": [
-          "Tell me a joke!",
-          "Tell me something funny!",
-          "Do you know a joke?"
+          "I'd like to place an order",
+          "Can I order something?",
+          "How can I order?",
+          "I want to buy something",
+          "Place my order please"
         ],
         "responses": [
-          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-          "What did the buffalo say when his son left for college? Bison."
+          "Sure! What would you like to order?",
+          "Of course! What can I get for you?",
+          "Let's get your order started! What would you like?",
+          "I'm here to assist you with your order. What can I get for you?"
+        ]
+      },
+      {
+        "tag": "customize",
+        "patterns": [
+          "Can I customize my order?",
+          "Do you offer customization?",
+          "Can I change ingredients?",
+          "I have specific preferences for my order",
+          "Can I make modifications to my drink?"
+        ],
+        "responses": [
+          "Yes, you can customize your order! Please let me know your preferences.",
+          "Absolutely! We offer customization options. Feel free to specify your preferences.",
+          "We're happy to accommodate your preferences! Let us know how you'd like to customize your order.",
+          "Sure! We understand that everyone has unique tastes. Let's customize your drink together."
+        ]
+      },
+      {
+        "tag": "opening_hours",
+        "patterns": [
+          "What are your opening hours?",
+          "When do you open and close?",
+          "What time do you open?",
+          "Are you open today?",
+          "Can I visit you now?",
+          "What are your hours of operation?"
+        ],
+        "responses": [
+          "We're open from 8 AM to 8 PM every day.",
+          "Our opening hours are from 8 AM to 8 PM, seven days a week.",
+          "Yes, we're open today! Our current hours are from 8 AM to 8 PM.",
+          "You're welcome to visit us now! We're open until 8 PM today."
+        ]
+      },
+      {
+        "tag": "loyalty_program",
+        "patterns": [
+          "Do you have a loyalty program?",
+          "Are there any rewards for regular customers?",
+          "Can I join your loyalty program?",
+          "How does your loyalty program work?",
+          "What are the benefits of your loyalty program?",
+          "Tell me about your rewards program"
+        ],
+        "responses": [
+          "Yes, we have a loyalty program! Earn points with every purchase and enjoy exclusive rewards.",
+          "Absolutely! Our loyalty program offers great benefits for our regular customers.",
+          "Our loyalty program rewards you for your loyalty with exclusive discounts and perks!",
+          "Join our loyalty program today and start earning rewards with every purchase."
+        ]
+      },
+      {
+        "tag": "recommendation",
+        "patterns": [
+          "What's your most popular item?",
+          "Can you recommend something?",
+          "What do people usually order?",
+          "What's your specialty?",
+          "What's your best drink?",
+          "What would you recommend?"
+        ],
+        "responses": [
+          "Our most popular item is our signature espresso blend.",
+          "I'd recommend trying our specialty latte. It's a customer favorite!",
+          "Customers often enjoy our cappuccino, made with freshly ground beans and frothy milk.",
+          "Our iced mocha is a refreshing choice, perfect for warm days!",
+          "For a classic option, you can't go wrong with our hot brewed coffee."
+        ]
+      },
+      {
+        "tag": "complaint",
+        "patterns": [
+          "I have a complaint",
+          "I'm not satisfied with my order",
+          "I want to report an issue",
+          "Something went wrong with my order",
+          "I need to speak to a manager"
+        ],
+        "responses": [
+          "I'm sorry to hear that. Please let me know what the issue is, and I'll do my best to resolve it.",
+          "We apologize for any inconvenience. Please tell us about your experience so we can improve.",
+          "Your feedback is important to us. Please share your concerns, and we'll address them promptly.",
+          "I'll escalate your issue to our manager. We'll work to resolve it as soon as possible."
         ]
       }
     ]
   }
+  
