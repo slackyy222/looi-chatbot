@@ -16,6 +16,7 @@ This repository contains an implementation of a contextual chatbot in PyTorch. T
 
     ```bash
     git clone https://github.com/Korede01/looi-chatbot.git
+    cd looi-chatbot
     ```
 
 2. **Create a Python environment:**
@@ -23,8 +24,6 @@ This repository contains an implementation of a contextual chatbot in PyTorch. T
     You can use any method you prefer to create a virtual environment. Here's an example using `venv`:
 
     ```bash
-    mkdir looi
-    cd looi
     python3 -m venv venv
     ```
 
