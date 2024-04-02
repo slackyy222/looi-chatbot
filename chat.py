@@ -54,7 +54,7 @@ def chat_with_model(sentence, history):
         return "I do not understand..."
 
 # Create Gradio interface
-iface = gr.Interface(chat_with_model, inputs="text", outputs="text")
+iface = gr.ChatInterface(chat_with_model)
 
 # Launch the interface
 iface.launch(debug=True, share=True)
